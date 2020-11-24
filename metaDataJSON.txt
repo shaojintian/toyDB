@@ -1,15 +1,15 @@
 {
-    "people": [
-        {
-            {"colName":"website","colType":"varchar","colSize":255,"colVal":"xxxx.com"}
-            "from": "Nebraska",
-            "name": "Scott"
+    "RowSet": [
+        [
+            {"colName":"website","colType":"varchar","colSize":255,"colVal":"xxxx.com"},
+            {"colName":"from","colType":"varchar","colSize":255,"colVal":"america"},
+            {"colName":"name","colType":"varchar","colSize":255,"colVal":"bob"}
 
-        },
-        {
-            "website": "github.com",
-            "from": "china",
-            "name": "enzoshao"
-        }
+        ],
+        [
+            {"colName":"website","colType":"varchar","colSize":255,"colVal":"github.com"},
+            {"colName":"from","colType":"varchar","colSize":255,"colVal":"china"},
+            {"colName":"name","colType":"varchar","colSize":255,"colVal":"enzoshao"}
+        ]
     ]
 }

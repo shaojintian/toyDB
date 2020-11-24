@@ -1,6 +1,9 @@
 import pandas
 import json
 from constant import *
+from data_structure import *
+
+
 class DBEngine:
     def __init__(self):
         pass
@@ -12,12 +15,11 @@ class DBEngine:
             return jsonToRowSet(filepath)
         assert False # can not reach here
 
+    def limitOperator(self,rowSet,limitSize):
+        return RowSet(rowSet.rows[:limitSize])
 
-def csvToRowSet(filepath):
+    def
 
 
 
-def jsonToRowSet(filepath):
-    with open(filepath) as json_file:
-        data = json.load(json_file)
 
