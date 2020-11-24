@@ -1,0 +1,15 @@
+{
+    "people": [
+        {
+            {"colName":"website","colType":"varchar","colSize":255,"colVal":"xxxx.com"}
+            "from": "Nebraska",
+            "name": "Scott"
+
+        },
+        {
+            "website": "github.com",
+            "from": "china",
+            "name": "enzoshao"
+        }
+    ]
+}
